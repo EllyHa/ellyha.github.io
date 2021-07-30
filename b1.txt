@@ -1,0 +1,15 @@
+fun main() {
+    val c: Int
+    val s: Int
+
+    println("Chieu dai hinh chu nhat =")
+    val rong: Int = readLine()!! . toInt()
+    println("Chieu rong hinh chu nhat =2")
+    val dai: Int = readLine()!!. toInt()
+
+    c = (dai + rong)*2
+    s = dai * rong
+
+    println("Chu vi hinh chu nhat la $c")
+    println("Dien tich hinh chu nhat la $s")
+}

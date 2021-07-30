@@ -1,0 +1,13 @@
+fun main () {
+    println("Nhap vao so a, a =")
+    val a: Byte = readLine()!!. toByte()
+
+    println("Nhap vao so b, b =")
+    val b: Byte = readLine()!!. toByte()
+
+    if (a > b)
+        println("max = a = $a, min = b = $b")
+    else println("max = b = $b, min = a = $a")
+
+
+}

@@ -1,0 +1,16 @@
+fun main () {
+    val tuoi: Int
+
+    println("Nam sinh cua em:")
+    val namSinh = readLine()!!.toInt()
+    tuoi = 2021 - namSinh
+
+    val a: Int = namSinh + 18
+    val b: Int = a+4
+
+    println("Tuoi hien tai cua em la $tuoi tuoi")
+    println("Nam em hoc Dai hoc la nam $a")
+
+
+    println("Nam em tot nghiep Dai hoc la nam $b")
+}
