@@ -1,0 +1,25 @@
+fun main () {
+    println("Nhap diem kiem tra mieng:")
+    val ktm : Double = readLine()!!. toDouble()
+
+    println("Nhap diem kiem tra 15 phut:")
+    val kt15p : Double = readLine()!!. toDouble()
+
+    println("Nhap diem kiem tra 1 tiet:")
+    val kt1t : Double = readLine()!!. toDouble()
+
+    println("Nhap diem kiem tra hoc ki:")
+    val kthk : Double = readLine()!!. toDouble()
+
+    val t: Double
+    t = (ktm + kt15p + kt1t * 2 + kthk * 3)/7
+
+    if (t >= 8.0)
+        println("Hoc sinh gioi")
+    else if (t < 8.0 && t >= 6.5)
+        println("Hoc sinh kha")
+    else if (t < 6.5 && t >= 5.0)
+        println("Hoc sinh trung binh")
+    else if (t < 5.0)
+        println("Hoc sinh yeu")
+}
